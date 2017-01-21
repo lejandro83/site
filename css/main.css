@@ -1,0 +1,87 @@
+* {
+    font-family: 'Karla', sans-serif
+}
+body {
+    margin: 0;
+    padding: 90px 90px 0 90px
+}
+
+.divider:after {
+    content:' ';
+    display:block;
+    border-bottom: 2px solid black;
+}
+
+.motto {
+    font-weight: 100;
+    font-size: 40px;
+    margin: 0
+}
+.lagom {
+    height: 40px;
+    width: auto
+}
+.upper {
+    height: 30vh
+}
+.lower {
+    height: 30vh;
+    width: 100vw
+}
+.lower .work {
+    font-size: 32px
+}
+.lower .work:nth-child(1) {
+    margin-right: 70px
+}
+@media (max-width: 560px) {
+    body {
+        padding: 100px 40px 0 40px;
+        text-align: center
+    }
+    .upper {
+        height: 11vh;
+        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+    .lower {
+        height: 40vh
+    }
+    .lower .work {
+        height: 50px;
+        margin: 0 0 0 20px
+    }
+    .lower .motto {
+        font-size: 35px;
+        height: 200px;
+        margin-top: 100px;
+        margin-bottom: 70px
+    }
+}
+@media (max-width: 350px) {
+    body {
+        padding: 50px 20px 0 20px
+    }
+    .upper {
+        height: 30vh
+    }
+    .lower {
+        height: 40vh
+    }
+    .lower .work {
+        font-size: 20px
+    }
+    .lower .content {
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+    .lower .content .motto {
+        height: 100px;
+        margin: 10px 0 0 0;
+        font-size: 23px
+    }
+}
