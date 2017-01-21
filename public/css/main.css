@@ -2,37 +2,37 @@
     font-family: 'Karla', sans-serif
 }
 body {
-    margin: 0;
-    padding: 90px 90px 0 90px
+  margin: 0;
+  padding: 90px 90px 0 90px
 }
 
 .divider:after {
-    content:' ';
-    display:block;
-    border-bottom: 2px solid black;
+  content:' ';
+  display:block;
+  border-bottom: 2px solid black;
 }
 
 .motto {
-    font-weight: 100;
-    font-size: 40px;
-    margin: 0
+  font-weight: 100;
+  font-size: 40px;
+  margin: 0
 }
 .lagom {
-    height: 40px;
-    width: auto
+  height: 40px;
+  width: auto
 }
 .upper {
-    height: 30vh
+  height: 30vh
 }
 .lower {
-    height: 30vh;
-    width: 100vw
+  height: 30vh;
+  width: 100vw
 }
 .lower .work {
-    font-size: 32px
+  font-size: 32px
 }
 .lower .work:nth-child(1) {
-    margin-right: 70px
+  margin-right: 70px
 }
 @media (max-width: 560px) {
     body {
