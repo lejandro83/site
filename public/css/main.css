@@ -40,14 +40,14 @@ body {
         text-align: center
     }
     .upper {
-        height: 11vh;
+        height: 5vh;
         -webkit-justify-content: center;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center
     }
     .lower {
-        height: 40vh
+        height: 70vh
     }
     .lower .work {
         height: 50px;
