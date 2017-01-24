@@ -646,10 +646,10 @@ body { font-family: 'CothamSansRegular'; font-weight: normal; font-style: normal
 .home { position: relative; z-index: 1000; background: #FFFFFF; margin-bottom: 752px; }
 
 /* Layouts */
-.container { width: 960px; margin: 0 auto; position: relative; }
+.container { margin: 0 auto; position: relative; }
 @media (min-width: 768px) and (max-width: 1023px) { .container { width: 100%; margin: 0; } }
 
-.section { padding: 150px 0; border-bottom: 1px solid #E8E8E8; }
+.section { padding-top: 200px; border-bottom: 1px solid #E8E8E8; }
 
 .section .container::before { font-size: 16px; line-height: 16px; background: #FFFFFF; position: absolute; top: -158px; left: -16px; padding: 0 16px; color: #C5C5C5; }
 
@@ -670,6 +670,7 @@ body { font-family: 'CothamSansRegular'; font-weight: normal; font-style: normal
 .user-gist p.designation { font-size: 16px; line-height: 16px; font-weight: 400; color: #757575; }
 
 .user-blurb { margin: 0; padding: 0; }
+@media (max-width: 568px) { .user-blurb { max-width: 350px; } }
 
 .user-blurb .currently { font-size: 42px; line-height: 56px; color: #252525; padding-bottom: 10%; padding-top: 20%;}
 
@@ -747,6 +748,11 @@ ul.showcase li { font-size: 14px; line-height: 22px; color: #757575; }
 .contact { margin: 0; text-align: center; }
 
 .contact .email { font-size: 48px; line-height: 48px; font-weight: 500; color: #FFFFFF; display: inline-block; text-decoration: underline; transition: all .2s ease-in-out; }
+@media (min-width:470px) { .contact .email { font-size: 40px; } }
+
+.contact .email { font-size: 40px; line-height: 48px; font-weight: 500; color: #FFFFFF; display: inline-block; text-decoration: underline; transition: all .2s ease-in-out; }
+@media (max-width:470px) { .contact .email { font-size: 40px; } }
+
 .contact .email:hover { transform: scale(1.03); }
 
 .contact .availability { font-size: 16px; line-height: 20px; display: block; padding: 20px 0 0 0; color: rgba(255, 255, 255, 0.75); }
@@ -755,9 +761,10 @@ ul.showcase li { font-size: 14px; line-height: 22px; color: #757575; }
 
 .colophon .copyright { float: left; color: rgba(255, 255, 255, 0.75); }
 
-.colophon ul.social-links { float: right; overflow: hidden; }
+.colophon .social-links { float: right; overflow: hidden; }
+@media (max-width: 800px) { .colophon .social-links { float: left; } }
 
-.colophon ul.social-links li { float: left; margin-left: 20px; }
+.colophon .social-links { float: right; margin-left: 20px; }
 
-.colophon ul.social-links li a { color: rgba(255, 255, 255, 0.75); }
-.colophon ul.social-links li a:hover { color: white; text-decoration: underline; }
+.colophon .social-links a { color: rgba(255, 255, 255, 0.75); }
+.colophon .social-links a:hover { color: white; text-decoration: underline; }

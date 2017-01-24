@@ -786,7 +786,7 @@ body {
 }
 .shots--shot img {
     display: block;
-    width: 80%
+    width: 100%
 }
 @media screen and (min-width: 460px) {
     .shots--shot {
