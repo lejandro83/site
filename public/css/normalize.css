@@ -772,7 +772,8 @@ body {
     flex-basis: 100%
 }
 .shots__heading h3 {
-    margin-bottom: 0.2em
+    margin-bottom: 0.4em;
+    margin-top: 0.2em;
 }
 .shots--shot {
     -webkit-flex: 0 0 100%;
