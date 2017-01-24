@@ -777,27 +777,44 @@ body {
 }
 .shots--shot {
     -webkit-flex: 0 0 100%;
-    flex: 0 0 100%
+    flex: 0 0 100%;
+    padding-top: 10%;
+    margin: auto;
 }
 .shots--shot a {
     display: block;
     overflow: hidden;
     padding: 0.1rem
 }
+.shots--shot h3 {
+    padding-bottom: 2%;
+    font-weight: 300;
+}
 .shots--shot img {
     display: block;
-    width: 100%
+    width: 100%;
 }
 @media screen and (min-width: 460px) {
     .shots--shot {
         -webkit-flex-basis: 50%;
         flex-basis: 50%
+        padding-top: 10%;
     }
+    .shots--shot img {
+    display: block;
+    width: 80%;
+}
 }
 @media screen and (min-width: 640px) {
     .shots--shot {
         -webkit-flex-basis: 50%;
-        flex-basis: 50%
+        flex-basis: 50%;
+    }
+}
+@media screen and (min-width: 740px) {
+    .shots--shot {
+        -webkit-flex-basis: 33%;
+        flex-basis: 33%;
     }
 }
 [role="contentinfo"] {
