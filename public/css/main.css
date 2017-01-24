@@ -640,8 +640,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 a { color: inherit; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-@font-face { font-family: 'Lato', sans-serif; }
-body { font-family: "Graphik", "Helvetica Neue", Helvetica, sans-serif; line-height: 1; background: #FFFFFF; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+@font-face { font-family: 'CothamSansRegular'; font-weight: normal; font-style: normal;  }
+body { font-family: 'CothamSansRegular'; font-weight: normal; font-style: normal; line-height: 1; background: #FFFFFF; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 .home { position: relative; z-index: 1000; background: #FFFFFF; margin-bottom: 752px; }
 
@@ -653,7 +653,7 @@ body { font-family: "Graphik", "Helvetica Neue", Helvetica, sans-serif; line-hei
 
 .section .container::before { font-size: 16px; line-height: 16px; background: #FFFFFF; position: absolute; top: -158px; left: -16px; padding: 0 16px; color: #C5C5C5; }
 
-.section.work .container::before { content: "Featured Work"; }
+/*.section.work .container::before { content: "Featured Work"; }*/
 
 .section.profile .container::before { content: "Profile"; }
 

@@ -5,10 +5,11 @@ $.jribbble.users('lagggom').shots({per_page: 36}).then(function(shots) {
   
   shots.forEach(function(shot) {
     html.push('<li class="shots--shot">');
+    html.push('<h3>' + shot.title + '</h3>');
     html.push('<a href="' + shot.html_url + '" target="_blank">');
     html.push('<img src="' + shot.images.normal + '">');
-    html.push('<h3>' + shot.title + '</h3>');
-    html.push('<p>' + shot.description + '</p>');
+    
+    // html.push('<p>' + shot.description + '</p>');
     html.push('</a></li>');
     // console.log(shot);
   });
